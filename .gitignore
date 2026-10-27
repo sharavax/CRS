@@ -1,0 +1,29 @@
+# Backend
+backend/target/
+backend/data/
+backend/*.log
+backend/.flattened-pom.xml
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/*.log
+frontend/*.local
+
+# IDEs & Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
