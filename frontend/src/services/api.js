@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base API configuration (uses proxy in dev or full URL fallback)
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8082/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
